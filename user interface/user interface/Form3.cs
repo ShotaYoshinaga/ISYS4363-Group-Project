@@ -17,9 +17,19 @@ namespace user_interface
             InitializeComponent();
         }
 
-        private void label6_Click(object sender, EventArgs e)
+        private void btnAddToFavs_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("To be Implemented");
+        }
 
+        private void btnAddToReserve_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("To be Implemented");
+        }
+
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("To be Implemented");
         }
     }
 }

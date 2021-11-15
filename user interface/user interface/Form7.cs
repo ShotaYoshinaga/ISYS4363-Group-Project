@@ -21,5 +21,15 @@ namespace user_interface
         {
 
         }
+
+        private void btnSubmit_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("To be Implemented");
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("To be Implemented");
+        }
     }
 }

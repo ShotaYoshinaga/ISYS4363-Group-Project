@@ -16,5 +16,20 @@ namespace user_interface
         {
             InitializeComponent();
         }
+
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("To be Implemented");
+        }
+
+        private void btnAddToFavs_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("To be Implemented");
+        }
+
+        private void btnAddToReserve_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("To be Implemented");
+        }
     }
 }

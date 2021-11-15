@@ -30,167 +30,190 @@ namespace user_interface
         private void InitializeComponent()
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.cbMake = new System.Windows.Forms.ComboBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.cbModel = new System.Windows.Forms.ComboBox();
+            this.btnSearch = new System.Windows.Forms.Button();
+            this.label9 = new System.Windows.Forms.Label();
+            this.cbSize = new System.Windows.Forms.ComboBox();
+            this.cbYear = new System.Windows.Forms.ComboBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.btnAddToFavs = new System.Windows.Forms.Button();
+            this.btnAddToReserve = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(253, 479);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 142);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 82;
             this.dataGridView1.RowTemplate.Height = 33;
-            this.dataGridView1.Size = new System.Drawing.Size(454, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(955, 198);
             this.dataGridView1.TabIndex = 24;
             // 
-            // button1
+            // label7
             // 
-            this.button1.Location = new System.Drawing.Point(99, 400);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(106, 48);
-            this.button1.TabIndex = 23;
-            this.button1.Text = "Search";
-            this.button1.UseVisualStyleBackColor = true;
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(400, 19);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(158, 20);
+            this.label7.TabIndex = 0;
+            this.label7.Text = "Used Vehicle Search";
             // 
-            // comboBox4
+            // groupBox1
             // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(431, 233);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(121, 33);
-            this.comboBox4.TabIndex = 22;
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(431, 288);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(121, 33);
-            this.comboBox3.TabIndex = 21;
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(431, 349);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 33);
-            this.comboBox2.TabIndex = 20;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(431, 176);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 33);
-            this.comboBox1.TabIndex = 19;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(274, 179);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(65, 25);
-            this.label6.TabIndex = 18;
-            this.label6.Text = "Make";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(274, 349);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(54, 25);
-            this.label5.TabIndex = 17;
-            this.label5.Text = "Size";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(274, 236);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(71, 25);
-            this.label4.TabIndex = 16;
-            this.label4.Text = "Model";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(274, 291);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(58, 25);
-            this.label3.TabIndex = 15;
-            this.label3.Text = "Year";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(94, 141);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(111, 25);
-            this.label2.TabIndex = 14;
-            this.label2.Text = "Search By";
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.cbMake);
+            this.groupBox1.Controls.Add(this.label8);
+            this.groupBox1.Controls.Add(this.cbModel);
+            this.groupBox1.Controls.Add(this.btnSearch);
+            this.groupBox1.Controls.Add(this.label9);
+            this.groupBox1.Controls.Add(this.cbSize);
+            this.groupBox1.Controls.Add(this.cbYear);
+            this.groupBox1.Controls.Add(this.label10);
+            this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.groupBox1.Location = new System.Drawing.Point(12, 54);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(954, 83);
+            this.groupBox1.TabIndex = 27;
+            this.groupBox1.TabStop = false;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(94, 75);
+            this.label1.Location = new System.Drawing.Point(5, 25);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(213, 25);
-            this.label1.TabIndex = 13;
-            this.label1.Text = "Used Vehicle Search";
+            this.label1.Size = new System.Drawing.Size(34, 13);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Make";
             // 
-            // button2
+            // cbMake
             // 
-            this.button2.Location = new System.Drawing.Point(590, 682);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(250, 48);
-            this.button2.TabIndex = 25;
-            this.button2.Text = "Add into Reservation";
-            this.button2.UseVisualStyleBackColor = true;
+            this.cbMake.FormattingEnabled = true;
+            this.cbMake.Location = new System.Drawing.Point(5, 40);
+            this.cbMake.Margin = new System.Windows.Forms.Padding(2);
+            this.cbMake.Name = "cbMake";
+            this.cbMake.Size = new System.Drawing.Size(127, 21);
+            this.cbMake.TabIndex = 7;
             // 
-            // button3
+            // label8
             // 
-            this.button3.Location = new System.Drawing.Point(320, 682);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(250, 48);
-            this.button3.TabIndex = 26;
-            this.button3.Text = "Add into Myfavorite";
-            this.button3.UseVisualStyleBackColor = true;
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(178, 25);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(36, 13);
+            this.label8.TabIndex = 3;
+            this.label8.Text = "Model";
+            // 
+            // cbModel
+            // 
+            this.cbModel.FormattingEnabled = true;
+            this.cbModel.Location = new System.Drawing.Point(181, 40);
+            this.cbModel.Margin = new System.Windows.Forms.Padding(2);
+            this.cbModel.Name = "cbModel";
+            this.cbModel.Size = new System.Drawing.Size(167, 21);
+            this.cbModel.TabIndex = 10;
+            // 
+            // btnSearch
+            // 
+            this.btnSearch.Location = new System.Drawing.Point(853, 25);
+            this.btnSearch.Margin = new System.Windows.Forms.Padding(2);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Size = new System.Drawing.Size(96, 36);
+            this.btnSearch.TabIndex = 11;
+            this.btnSearch.Text = "Search";
+            this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(389, 25);
+            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(29, 13);
+            this.label9.TabIndex = 2;
+            this.label9.Text = "Year";
+            // 
+            // cbSize
+            // 
+            this.cbSize.FormattingEnabled = true;
+            this.cbSize.Location = new System.Drawing.Point(515, 40);
+            this.cbSize.Margin = new System.Windows.Forms.Padding(2);
+            this.cbSize.Name = "cbSize";
+            this.cbSize.Size = new System.Drawing.Size(62, 21);
+            this.cbSize.TabIndex = 8;
+            // 
+            // cbYear
+            // 
+            this.cbYear.FormattingEnabled = true;
+            this.cbYear.Location = new System.Drawing.Point(392, 40);
+            this.cbYear.Margin = new System.Windows.Forms.Padding(2);
+            this.cbYear.Name = "cbYear";
+            this.cbYear.Size = new System.Drawing.Size(73, 21);
+            this.cbYear.TabIndex = 9;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(512, 25);
+            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(27, 13);
+            this.label10.TabIndex = 4;
+            this.label10.Text = "Size";
+            // 
+            // btnAddToFavs
+            // 
+            this.btnAddToFavs.Location = new System.Drawing.Point(696, 372);
+            this.btnAddToFavs.Margin = new System.Windows.Forms.Padding(2);
+            this.btnAddToFavs.Name = "btnAddToFavs";
+            this.btnAddToFavs.Size = new System.Drawing.Size(125, 36);
+            this.btnAddToFavs.TabIndex = 29;
+            this.btnAddToFavs.Text = "Add into Myfavorite";
+            this.btnAddToFavs.UseVisualStyleBackColor = true;
+            this.btnAddToFavs.Click += new System.EventHandler(this.btnAddToFavs_Click);
+            // 
+            // btnAddToReserve
+            // 
+            this.btnAddToReserve.Location = new System.Drawing.Point(835, 372);
+            this.btnAddToReserve.Margin = new System.Windows.Forms.Padding(2);
+            this.btnAddToReserve.Name = "btnAddToReserve";
+            this.btnAddToReserve.Size = new System.Drawing.Size(132, 36);
+            this.btnAddToReserve.TabIndex = 28;
+            this.btnAddToReserve.Text = "Add into Reservation";
+            this.btnAddToReserve.UseVisualStyleBackColor = true;
+            this.btnAddToReserve.Click += new System.EventHandler(this.btnAddToReserve_Click);
             // 
             // Form4
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(912, 834);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.ClientSize = new System.Drawing.Size(978, 444);
+            this.Controls.Add(this.btnAddToFavs);
+            this.Controls.Add(this.btnAddToReserve);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.comboBox4);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MinimizeBox = false;
             this.Name = "Form4";
-            this.Text = "Form4";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.Text = "Used Vehicle Search";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -199,18 +222,18 @@ namespace user_interface
         #endregion
 
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.ComboBox cbMake;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.ComboBox cbModel;
+        private System.Windows.Forms.Button btnSearch;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.ComboBox cbSize;
+        private System.Windows.Forms.ComboBox cbYear;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Button btnAddToFavs;
+        private System.Windows.Forms.Button btnAddToReserve;
     }
 }
